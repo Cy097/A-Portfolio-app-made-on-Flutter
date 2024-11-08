@@ -1,0 +1,19 @@
+project_root/
+├── assets/
+│   ├── profile.jpg           # Profile image or any other image assets
+│   └── project1.png          # Example project image
+├── lib/
+│   ├── main.dart             # Entry point of the application
+│   ├── pages/
+│   │   ├── welcome_page.dart # Welcome page with intro and buttons for navigation
+│   │   ├── hello_page.dart   # Hello page with detailed intro or bio
+│   │   ├── contacts_page.dart # Contact page with links and/or form
+│   │   ├── projects_page.dart # Projects page to showcase portfolio work
+│   │   └── cv_page.dart      # CV page to display or download your CV
+│   ├── widgets/
+│   │   ├── navigation_bar.dart # Navigation bar widget
+│   │   ├── project_card.dart  # Widget for displaying each project card in Projects page
+│   │   └── contact_info.dart  # Widget for showing contact details or social links
+│   └── themes/
+│       └── theme.dart         # Theme file for styling configuration
+└── pubspec.yaml               # Flutter project configuration, includes dependencies and assets
